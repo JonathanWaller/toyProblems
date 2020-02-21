@@ -8,3 +8,9 @@ function even_or_odd(number) {
     return "Odd";
   }
 }
+
+2. Very simple, given a number, find its opposite.
+
+function opposite(number) {
+  return -number;
+}
