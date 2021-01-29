@@ -82,3 +82,20 @@ OR
 function numberToString(num) {
   return String(num);
 }
+
+
+7. Given an array of integers your solution should find the smallest integer.
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let num;
+    for( let x of args ) {
+      if( !num || num > x ) {
+        num = x;
+      }
+    }
+    return num;
+  }
+}
+
+8. Remove the spaces from the string, then return the resultant string.
